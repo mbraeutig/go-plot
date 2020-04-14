@@ -8,10 +8,11 @@ import (
 const index = "" +
 	`
 <html>
-    <h1>https://go-plot.now.sh/api/plot?expr=sin(-x)*pow(1.5,-r)</h1>
+	<a href="https://go-plot.now.sh/api/plot?expr=sin(-x)*pow(1.5,-r)">Try it!</a>
 </html>
 `
 
 func Index(w http.ResponseWriter, r *http.Request) {
 	io.WriteString(w, index)
+	w.WriteHeader(http.StatusOK)
 }
