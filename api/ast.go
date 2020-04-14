@@ -3,6 +3,8 @@
 
 package api
 
+import "net/http"
+
 // An Expr is an arithmetic expression.
 type Expr interface {
 	// Eval returns the value of this Expr in the environment env.
@@ -38,3 +40,5 @@ type call struct {
 }
 
 //!-ast
+
+func dummy(w http.ResponseWriter, r *http.Request)
