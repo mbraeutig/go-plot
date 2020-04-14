@@ -4,12 +4,11 @@
 // See page 198.
 
 // Package eval provides an expression evaluator.
-package api
+package eval
 
 import (
 	"fmt"
 	"math"
-	"net/http"
 )
 
 //!+env
@@ -69,4 +68,3 @@ func (c call) Eval(env Env) float64 {
 }
 
 //!-Eval2
-func Eval(w http.ResponseWriter, r *http.Request) {}

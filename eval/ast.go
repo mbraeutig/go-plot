@@ -1,9 +1,7 @@
 // Copyright © 2016 Alan A. A. Donovan & Brian W. Kernighan.
 // License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-package api
-
-import "net/http"
+package eval
 
 // An Expr is an arithmetic expression.
 type Expr interface {
@@ -40,5 +38,3 @@ type call struct {
 }
 
 //!-ast
-
-func Ast(w http.ResponseWriter, r *http.Request) {}

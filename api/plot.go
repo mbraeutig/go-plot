@@ -12,7 +12,7 @@ import (
 	"math"
 	"net/http"
 
-	"gopl.io/ch7/eval"
+	"github.com/mbraeutig/go-plot/eval"
 )
 
 //!+parseAndCheck
