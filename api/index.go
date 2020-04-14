@@ -8,7 +8,7 @@ import (
 const index = "" +
 	`
 <html>
-	<a href="https://go-plot.now.sh/api/plot?expr=sin(-x)*pow(1.5,-r)">Try it!</a>
+	<a href="https://go-plot.now.sh/api/plot?expr=sin(-x)*pow(1.5,-r)">https://go-plot.now.sh/api/plot?expr=sin(-x)*pow(1.5,-r)</a>
 </html>
 `
 
