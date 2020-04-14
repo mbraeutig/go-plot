@@ -4,7 +4,8 @@
   "routes": [
     { "src": "/api/(.*)", "dest": "api/index.go" },
     { "src": "/", "dest": "api/index.go" },
+    { "src": "/index", "dest": "api/index.go" },
     { "src": "/plot", "dest": "api/plot.go" },
-    { "src": "/helath", "dest": "api/health.go" }
+    { "src": "/health", "dest": "api/health.go" }
   ]
 }

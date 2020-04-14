@@ -8,7 +8,7 @@ import (
 const index = "" +
 	`
 <html>
-	<p>sin(-x)*pow(1.5,-r): <a href="api/plot?expr=sin(-x)*pow(1.5,-r)">Try it!</a></p>
+	<p>sin(-x)*pow(1.5,-r): <a href="plot?expr=sin(-x)*pow(1.5,-r)">Try it!</a></p>
 </html>
 `
 
