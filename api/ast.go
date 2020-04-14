@@ -41,4 +41,4 @@ type call struct {
 
 //!-ast
 
-func Dummy(w http.ResponseWriter, r *http.Request) {}
+func Ast(w http.ResponseWriter, r *http.Request) {}
