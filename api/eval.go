@@ -69,4 +69,4 @@ func (c call) Eval(env Env) float64 {
 }
 
 //!-Eval2
-func dummy(w http.ResponseWriter, r *http.Request) {}
+func Dummy(w http.ResponseWriter, r *http.Request) {}
