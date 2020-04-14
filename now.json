@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "go-plot",
+  "routes": [
+    { "src": "/api/(.*)", "dest": "api/index.go" },
+    { "src": "/", "dest": "api/index.go" },
+    { "src": "/plot", "dest": "api/plot.go" },
+    { "src": "/helath", "dest": "api/health.go" }
+  ]
+}
