@@ -1,6 +1,6 @@
 ## go-plot
 
-Deployment this code
+Deployment of this code
 https://github.com/adonovan/gopl.io/blob/master/ch7/surface/surface.go
 
 to
